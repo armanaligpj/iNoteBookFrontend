@@ -9,7 +9,7 @@ const Signup = (props) => {
   }
   const handleSignup = async (e)=>{
     e.preventDefault(); 
-    const response = await fetch(`https://inotebook-backend-cofo.onrender.com/api/auth/createuser`, {
+    const response = await fetch(`https://inotebook-backend-np1y.onrender.com/api/auth/createuser`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
